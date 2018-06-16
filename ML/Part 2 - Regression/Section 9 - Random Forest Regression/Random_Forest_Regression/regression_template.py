@@ -28,5 +28,6 @@ X_grid = data_shaper.to_high_res(X, 0.01)
 
 vs = Visualizer()
 plt = vs(X, y, X_grid, regressor.predict(X_grid),
-         'Truth or Blue (Random Forest Regression)', 'Position level', 'Salary')
+         'Truth or Blue (Random Forest Regression)',
+         'Position level', 'Salary')
 plt.show()

@@ -55,7 +55,6 @@ X_train, X_test, y_train, y_test = dpp()
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
 regressor.fit(X_train, y_train)
-    regressor.
 
 # Predict the Test set results
 y_pred = regressor.predict(X_test)
